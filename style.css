@@ -35,6 +35,7 @@ nav {
 .section {
   float: left;
   width: 475px;
+  height: 263px;
   padding-top: 30px;
   margin-right: 20px;
   background: #ebebeb;
@@ -42,7 +43,7 @@ nav {
 }
 
 .article {
-    padding: 20px;
+    padding: 10px;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -55,7 +56,7 @@ nav {
 .aside {
     float: right;
     width: 465px;
-    height: 308.938px;
+    height: 263px;
     padding: 20px;
     background: #ebebeb;
     color: #777;
@@ -65,19 +66,21 @@ h1, p {
     color: #777;
     background: #ebebeb;
     font-size: 18px;
+    padding: 10px;
+    margin: 5px;
 }
 
-#full {
+#clean {
     content: "";
     display: block;
     clear: both;
-    margin-bottom: 20px;
+    margin-bottom:20px;
   }  
 
 footer {
     clear: both;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-top: 20px;
     color: #777;
     background: #ebebeb;
 }
