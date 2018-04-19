@@ -70,15 +70,13 @@ h1, p {
     margin: 5px;
 }
 
-#clean {
+#clean::after {
     content: "";
     display: block;
     clear: both;
-    margin-bottom:20px;
   }  
 
 footer {
-    clear: both;
     padding: 20px;
     margin-top: 20px;
     color: #777;
